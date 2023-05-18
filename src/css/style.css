@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    align-items: center;
 }
 
 header .logo,
@@ -28,9 +29,15 @@ header #botao-alterar-tema {
     border: none;
 }
 
+img.imagem-logo{
+    max-width: 200px;
+    transition: 0.2s ease-in-out;
+}
+
 header .logo:hover,
 header .imagem-botao:hover,
-main .cartao-pokemon:hover {
+main .cartao-pokemon:hover,
+img.imagem-logo:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
